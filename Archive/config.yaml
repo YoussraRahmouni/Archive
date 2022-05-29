@@ -1,0 +1,11 @@
+---
+#Link of zip file to be archived 
+LINK: https://opensource.telecomste.fr/inforx/test_export.sql.zip
+#After this duration the archive will be deleted, insert an int 
+DURATION: 1
+#You can specify duration date type: minutes, hours, days, weeks
+DURATIONTYPE: days
+#URL of matermost webhook
+WEBHOOK: https://chat.telecomste.fr/hooks/13ta3nw3e787tnxxqkyxfh5xnr
+#Specify whether or not to notify mattermost. Accepted values are true, false 
+NOTIFY: true 
